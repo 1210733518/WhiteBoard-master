@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <!--调用相机和照片-->
+    <ImageView
+        android:id="@+id/btn_photo"
+        style="@style/control_btn"
+        android:src="@drawable/ic_photo" />
+
+    <!--背景图片-->
+    <ImageView
+        android:id="@+id/btn_background"
+        style="@style/control_btn"
+        android:src="@drawable/ic_background" />
+    <!--保存文件的的方法-->
+    <ImageView
+        android:id="@+id/btn_save"
+        style="@style/control_btn"
+        android:src="@drawable/easyicon" />
+
+</LinearLayout>
